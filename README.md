@@ -8,9 +8,10 @@ This application for purpose majoo frontend test developed by Subiyantoro,
  - React-Bootstrap
 
 **Geting Started**
-git clone https://github.com/subiyantoro/MajooFrontendTestCase.git
-npm install
-npm start
+
+- git clone https://github.com/subiyantoro/MajooFrontendTestCase.git
+- npm install
+- npm start
 
 **Access**
 Access to http://localhost:3000
