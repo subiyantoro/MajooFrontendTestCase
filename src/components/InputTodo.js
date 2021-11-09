@@ -5,7 +5,6 @@ import { ADD_TODO } from "../configs/types"
 
 const InputTodo = (props) => {
     const {total, addNewTodo} = props
-    const dispatch = useDispatch()
     const [title, setTitle] = useState("")
     const _addNewTodo = () => {
         const today = new Date();

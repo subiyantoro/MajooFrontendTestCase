@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import BodyDone from './components/BodyDone';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -15,9 +15,6 @@ const App = (props) => {
     loading,
     getInitList
   } = props
-
-  let [doneTodo, setDoneTodo] = useState([])
-  let [undoneTodo, setUndoneTodo] = useState([])
 
   useEffect(() => {
     getInitList()

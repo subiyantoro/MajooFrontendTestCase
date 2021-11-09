@@ -10,8 +10,6 @@ const BodyUndone = (props) => {
         data
     } = props
 
-    const [item, setItem] = useState()
-
     const _renderList = () => {
         if(data.length === 0) {
             return (<p>No Item Todo</p>)
